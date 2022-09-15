@@ -338,7 +338,7 @@ install_v2ray() {
     install_file v2ctl
   else
     if [[ -f '/usr/local/bin/v2ctl' ]]; then
-        rm '/usr/local/bin/v2ctl'
+      rm '/usr/local/bin/v2ctl'
     fi
   fi
   install -d "$DAT_PATH"
